@@ -10,6 +10,7 @@ const paymentRoutes = require("./paymentRoutes");
 
 // Mount route modules
 router.use("/health", healthRoutes);
+
 router.use("/users", userRoutes);
 router.use("/lessons", lessonRoutes);
 router.use("/reports", reportRoutes);
