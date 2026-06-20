@@ -74,5 +74,4 @@ const getAllReports = async (req, res, next) => {
     next(error);
   }
 };
-
 module.exports = { getAllUsers, getAllLessons, deleteLesson, getAllReports };
